@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 		{
 			tmp=0;
 			for(k=0; k < size; k++)
-				tmp = tmp + A[i][j] * B[k][j];
+				tmp = tmp + A[i][k] * B[k][j];
 			R[i][j] = tmp;
 		}
 	}
@@ -49,7 +49,8 @@ int main(int argc, char *argv[])
 
 	/*Temos que imprimir isso se não o compilador 
 	não faz a multiplicação por não se justificar essa operação*/
-	printf("The last element is %.2f\n", R[size][size-1]);
+	
+	printf("The last element is %.2f\n", R[size-1][size-1]);
 
 	cmp134_free_matrix(A,size);
 	cmp134_free_matrix(B,size);

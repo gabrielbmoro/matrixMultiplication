@@ -1,6 +1,6 @@
 # **Project**
 
-## **Studants:** Gabriel Bronzatti Moro, Guilherme Camelo
+## **Students:** Gabriel Bronzatti Moro, Guilherme Camelo
 **Advisor:** Prof Lucas M. Schnorr
 
 - The support folder contains the files needed for research
